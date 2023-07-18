@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+@media (min-width:1200px) and (max-width:1800px) {
+
+.background {
+  background-image: url("../../public/background-01.png");
+  background-size: cover;
+}
+
+.principal {
+  height: 100vh;
+}
+
+.waves {
+  background-image: url("../../public/background-02.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 20vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+input.campologin {
+  margin-top: 10px;
+  padding: 15px;
+  height: 2px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.imgborda {
+  width: 25vw;
+  height: auto;
+}
+
+.login {
+  padding-bottom: 10%;
+}
+
+.botaologin {
+  border: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  vertical-align: middle;
+  background: rgb(197, 139, 13);
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+}
+
+.botaologin:hover {
+  background: rgb(133, 91, 3);
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  outline: unset;
+  padding-top: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.desc_input {
+  padding-bottom: 2px;
+  margin-top: 20px;
+}
+
+.box_login {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(153, 153, 153);
+  width: 30vw;
+  height: 80vh;
+  border: none;
+  flex-direction: column;
+}
+
+p.copy {
+  padding-top: 5%;
+  color: white;
+  text-align: center;
+}
+}
